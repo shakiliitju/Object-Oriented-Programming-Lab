@@ -1,7 +1,7 @@
 
-public class CV extends javax.swing.JFrame {
+public class cv extends javax.swing.JFrame {
 
-    public CV() {
+    public cv() {
         initComponents();
     }
 
@@ -230,11 +230,8 @@ public class CV extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new CV().setVisible(true);
-            }
+        java.awt.EventQueue.invokeLater(() -> {
+            new cv().setVisible(true);
         });
     }
 
